@@ -1,0 +1,163 @@
+.front-page{
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	background-image:  url(bg2.jpg);
+	height: 450px;
+	/* margin: 3em 3em; */
+	text-align: center;
+	color: wheat;
+}
+.Heading{
+	padding-top: 4em;
+	padding-bottom: 1em;
+	font-size: 2.3em;
+}
+.describing-front{
+	font-size: 1.5em;
+}
+.read-more{
+	font-size: 1.5em;
+	background-color: rgb(41, 41, 41);
+	width: fit-content;
+	padding: 15px;
+	margin-left: 25em;
+	margin-top: 3em;
+}
+a{
+	text-decoration: none;
+	color: wheat;
+}
+.main-page-1{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	height: 300px;
+	background: rgb(223, 221, 221);
+}
+.title{
+	font-size: 2.0em;
+	text-align: center;
+	padding-top: 1em;
+	color:  rgb(41, 41, 41);;
+}
+.block-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	font-size: 1.2em;
+	justify-content: space-evenly;
+}
+.description-1,.description-2{
+	width: 30%;
+	margin: 2em 0;
+	line-height: 1.5em;
+	line-break:auto;
+}
+.description-2{
+	width: 30%;
+	margin-left: 4em;
+	align-items: center;
+}
+.main-page-2{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	height: 30em;
+	align-items: center;
+	background-color: rgb(50, 49, 49);
+	padding: 1em 4em;
+}
+.card-1,.card-2,.card-3{
+	margin-left: 40px;	
+	width: 25%;
+	height: 27em;
+	background-color: lavender;
+	font-family:cursive;
+	transition: 1s;
+}
+.card-1:hover,.card-2:hover,.card-3:hover{
+	
+	transform: scale(1.1);
+}
+.img-1{
+	height:auto;
+}
+.card-text-1{
+	font-size:1.5em ;
+	font-weight: bold;
+	text-align: center;
+	height: 3em;
+	margin-top: 1.5em;
+}
+.card-text-2{
+	padding:0 2em;
+	font-size: 1em;
+	text-align: center;
+	height:13em;
+	line-height: 1.3em;
+}
+.footer-page{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 400px;
+	padding: 0;
+	margin-top: 0;
+}
+.blue-half{
+	background-color:rgb(1, 73, 97);
+	width: 50%;
+	font-family: fantasy;
+	font-size: 1.5em;
+	color:rgb(180, 168, 169);
+}
+.red-half{
+	background-color:rgb(178, 35, 49);
+	width: 50%;
+	font-family: fantasy;
+	font-size: 1.5em;
+	color:rgb(180, 168, 169);
+}
+.contact{
+	width: 100%;
+	height: 20%;
+	
+	font-weight: bold;
+	font-style: oblique;
+	text-align: center;
+	margin: 0;
+	margin-top:4em ;
+}
+.info{
+	width: fit-content;
+	/* margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 40px; */
+	padding:0 2em;
+	text-align: center;
+}
+.mail{
+	padding: 2em 2em;
+	text-align: center;
+}
+.end-page{
+	background-color:rgb(50, 49, 49);
+	width: 100%;
+	height: 200px;
+	font-size:2.5em;
+	font-weight: bolder;
+	display: flex;
+	justify-content: space-around;
+	color: rgb(180, 168, 169);
+}
+.em-1,.em-2{
+	padding-top:2em ;
+	padding-left: 18px;
+	
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
